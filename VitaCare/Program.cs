@@ -1,6 +1,6 @@
 
 using VitaCare.RepositoryLayer.Authentication;
-using VitaCare.ServiceLayer.Authentication;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,8 +12,8 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IAuthenticationSL, AuthenticationSL>();
 builder.Services.AddScoped<IAuthenticationRL, AuthenticationRL>();
-var sendGridApiKey = builder.Configuration["SendGrid:ApiKey"];
-builder.Services.AddScoped<IEmailService>(provider => new EmailService(sendGridApiKey));
+
+
 
 
 

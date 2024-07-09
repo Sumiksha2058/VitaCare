@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VitaCare")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ade13ad9df3bef365f3a27a17d8922a60cb2d818")]
 [assembly: System.Reflection.AssemblyProductAttribute("VitaCare")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VitaCare")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

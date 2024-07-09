@@ -6,8 +6,7 @@
             public string UserEmail { get; set; }
             public string Password { get; set; }
             public string ConformPassword { get; set; }
-            public bool EmailConfirmed { get; set; }
-            public string ConfirmationCode { get; set; }
+        
         }
 
 
