@@ -1,0 +1,209 @@
+// HomePage.scss
+
+body{
+  background-color: #EADDDD !important;
+}
+.homePageContainer {
+  background-color: #EADDDD; /* Light gray background */
+  padding: 1.5em; /* Add some padding */
+}
+
+
+
+.sidebarContainer {
+ //background-color: blueviolet;
+  height: auto;
+  display: flex;
+  align-items:center;
+  justify-content:first baseline;
+  flex-direction: column;
+  
+  Button {
+    width: 12.5em !important;
+    height: 6.25 !important;
+    margin-bottom: 1.5em;
+  }
+}
+
+.SmallContainerDonationButton {
+  
+  display: flex;
+  position: relative;
+
+  .overlay {
+    position: absolute;
+  
+    // left: 0;
+    width: fit-content;  /* Stretches the overlay across the width of the card */
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: left;
+    margin: 300px 0;
+  
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .body1 {
+    margin-top: 20px;
+  }
+
+  .date-time {
+    margin-top: 8px;
+  }
+}
+
+.modalBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-shadow: 24px;
+  padding: 16px;
+}
+
+TextField {
+  margin: 5px;
+}
+
+.MuiBottomNavigation-root {
+  background-color: transparent !important;
+}
+.MidContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+.WhyToContainer {
+  background-image: url("./Assets/images/doctor.png");
+  width: 60% !important;
+  // margin: 7px;
+  margin: 0 9px;
+  padding: 3em;
+  background-size: cover;
+  width: fit-content;
+  background-repeat: no-repeat;
+  height: 60vh;
+  border-radius: 6px;
+
+}
+  p {
+    margin-left: 1em;
+    font-size: 18px;
+    padding: 0; 
+    margin-right:6em;
+    
+  }
+  Button{
+    margin-left: 1.5em;
+    background-color: #F2130f !important;
+    color:#fff;
+  }
+
+}
+
+h3 {
+  text-align: center;
+  color: #000;
+  font-size: 30px;
+  padding: 135px 110px;
+
+}
+.image-button {
+  display: flex;
+  align-items: center;
+}
+
+.button-icon {
+  width: 100%; 
+  height: auto; 
+     
+  padding: 3px;
+}
+.MuiCardContent-root{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+
+.WrapRecentEvent {
+  background-color: #EDECEC;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: .5em; 
+}
+
+.text {
+  flex: 1; /* Take remaining space */
+}
+
+.button {
+  margin-left: .5em; /* Optional: for spacing between text and button */
+  Button{
+    width: 33px !important;
+    height: 28px;
+  }
+}
+
+.HeadlineContainer {
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 3em;
+  
+  .marquee {
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0%   { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+}
+
+
+.MainImagesContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 8em;
+  .img2{
+    width: 450px !important;
+    height: 81.45px;
+  }
+}
+.patnershipDevider {
+ 
+  width: 10% !important;
+  height: .3em !important;
+  box-shadow: 3px 11px 5px -4px rgba(0,0,0,0.1) !important;
+  border-radius: 50px;
+  background-color: #F2130f !important;
+
+}
+
+.titlePatner{
+  margin-top: 3em;
+}
+.img1{
+  width: 171px !important;
+  height: 195.83px !important;
+}
+.img2{
+  width: 450px !important;
+  height: 81.45px !important;
+}
+.img3{
+  width: 204px !important;
+  height: 192px !important;
+}

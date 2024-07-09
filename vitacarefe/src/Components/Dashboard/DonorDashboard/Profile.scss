@@ -1,0 +1,17 @@
+.page-container {
+    display: flex;
+  }
+  
+  .Profilecontent {
+    flex-grow: 1;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+
+  }
+  .profilePhoto{
+    width: 150px !important;
+    height: 150px !important;
+    background-color: aqua !important;
+    border-radius: 100% !important;
+  }

@@ -1,0 +1,6 @@
+@VitaCare_HostAddress = http://localhost:5001
+
+GET {{VitaCare_HostAddress}}/vitacare/
+Accept: application/json
+
+###

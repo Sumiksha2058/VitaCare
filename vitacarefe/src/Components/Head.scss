@@ -1,0 +1,46 @@
+
+AppBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.bg-container {
+  position: relative;
+  background-color: #B97272 !important;
+  width: 100%;
+  height: auto; 
+  overflow: hidden;
+  margin-bottom: 5em !important;
+
+}
+
+.content {
+  padding: .4em 3.5em;
+  position: relative;
+  display: flex;
+  justify-content: left; /* Adjusted to spread the content across */
+  align-items: center;
+  flex-direction: row;
+  z-index: 13;
+}
+
+.logo img {
+  width: 70px;
+}
+
+.reciveButtonIcon {
+  
+  width: 203px !important;
+  height: 60px !important;
+  color: #fff !important;
+  background-color: transparent !important; /* Changed to 'none' */
+  box-shadow: none !important;
+}
+.navButton{
+  display: flex !important;
+  justify-content: right !important;
+  align-items: end;
+  text-align: right !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}

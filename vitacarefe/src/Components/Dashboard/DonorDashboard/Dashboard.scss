@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    background-color: #EADDDD !important;
+  }
+ 
+    .MuiDrawer-paperAnchorLeft.MuiDrawer-paperAnchorDockedLeft {
+      background-color: #D6B2B2 !important;
+    }
+    
+.MuiToolbar-root{
+  background-color: #B97272 !important;
+}
+  .bg-containers {
+    background-color: #B97272 ;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+
+    align-items: center;
+    text-align: center;
+    z-index: 1000 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .RightContent {
+    display: flex !important;
+    margin: 1em !important;
+    position: relative !important; 
+  }
+  .probtn{
+    background-color: transparent !important;
+  }
+
+  // .RightContent .MuiMenu-paper {
+  //   z-index: 1100 !important; 
+  // }
+  

@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.MuiToolbar-root{
+  background-color: #f2130f !important;
+}
+  .bg-containers {
+    background-color: #f2130f ;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-between !important;
+
+    align-items: center;
+    text-align: center;
+    z-index: 1000 !important;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .RightContent {
+    display: flex !important;
+    margin: 1em !important;
+    position: relative !important; /* Ensure it's a positioned element for z-index to work */
+  }
+  
+  /* Dropdown styles */
+  .RightContent .MuiMenu-paper {
+    z-index: 1100 !important; /* Higher than the app bar */
+  }
+  

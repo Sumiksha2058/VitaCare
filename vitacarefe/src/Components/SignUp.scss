@@ -1,0 +1,48 @@
+body, html {
+    margin-top: 2.5em;
+}
+
+.SignUpContentWapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+
+    h5 {
+    
+        color: black; // Adjust color to make it visible over the background
+        text-align: left !important;
+    }
+
+    .FormContent {
+        padding: 0;
+        border-radius: 10px;
+
+        .MuiTextField-root {
+            
+            input {
+                color: black; // Text color inside text fields
+            }
+            label {
+                color: black; // Label color
+            }
+         
+        }
+
+        .MuiButton-root {
+            margin-top: 5px !important;
+            background-color: #F2130f !important;
+                width: 100% !important;
+        }
+    }
+
+    .imageContainer {
+        height: 100%; // Ensures the image container takes the full height of the grid item
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; // Ensures the image covers the entire container
+            border-radius: 8px;
+        }
+    }
+}
